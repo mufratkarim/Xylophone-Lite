@@ -1,9 +1,9 @@
 //
 //  ViewController.swift
-//  Xylophone
+//  XylophoneLite
 //
-//  Created by Angela Yu on 28/06/2019.
-//  Copyright © 2019 The App Brewery. All rights reserved.
+//  Created by Mufrat Aritra on 01/26/2021.
+//  Copyright © 2021 MKA. All rights reserved.
 //
 
 import UIKit
@@ -24,10 +24,13 @@ class ViewController: UIViewController {
     func playSound(button: UIButton) {
         let url = Bundle.main.url(forResource: button.currentTitle!, withExtension: "wav")
         button.layer.opacity = Float.random(in: 0.1...0.5)
+        let prevColor = view.backgroundColor
+        view.backgroundColor = button.backgroundColor
         
         DispatchQueue.main.asyncAfter(deadline: .now() + 0.2) {
             self.player = try! AVAudioPlayer(contentsOf: url!)
             self.player.play()
+            self.view.backgroundColor = prevColor
             button.layer.opacity = 1
         }
         

@@ -23,7 +23,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		AD937BF222C61DBB002E2D88 /* Xylophone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Xylophone.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD937BF222C61DBB002E2D88 /* XylophoneLite.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XylophoneLite.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD937BF522C61DBB002E2D88 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AD937BF722C61DBB002E2D88 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		AD937BF922C61DBB002E2D88 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -54,7 +54,7 @@
 		AD937BE922C61DBB002E2D88 = {
 			isa = PBXGroup;
 			children = (
-				AD937BF422C61DBB002E2D88 /* Xylophone */,
+				AD937BF422C61DBB002E2D88 /* XylophoneLite */,
 				AD937BF322C61DBB002E2D88 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -62,12 +62,12 @@
 		AD937BF322C61DBB002E2D88 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				AD937BF222C61DBB002E2D88 /* Xylophone.app */,
+				AD937BF222C61DBB002E2D88 /* XylophoneLite.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		AD937BF422C61DBB002E2D88 /* Xylophone */ = {
+		AD937BF422C61DBB002E2D88 /* XylophoneLite */ = {
 			isa = PBXGroup;
 			children = (
 				AD937BF522C61DBB002E2D88 /* AppDelegate.swift */,
@@ -79,7 +79,7 @@
 				AD937C0322C61DBE002E2D88 /* Info.plist */,
 				ADE587FA22CB5141007F0F9A /* Sounds */,
 			);
-			path = Xylophone;
+			path = XylophoneLite;
 			sourceTree = "<group>";
 		};
 		ADE587FA22CB5141007F0F9A /* Sounds */ = {
@@ -99,9 +99,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		AD937BF122C61DBB002E2D88 /* Xylophone */ = {
+		AD937BF122C61DBB002E2D88 /* XylophoneLite */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AD937C0622C61DBE002E2D88 /* Build configuration list for PBXNativeTarget "Xylophone" */;
+			buildConfigurationList = AD937C0622C61DBE002E2D88 /* Build configuration list for PBXNativeTarget "XylophoneLite" */;
 			buildPhases = (
 				AD937BEE22C61DBB002E2D88 /* Sources */,
 				AD937BEF22C61DBB002E2D88 /* Frameworks */,
@@ -111,9 +111,9 @@
 			);
 			dependencies = (
 			);
-			name = Xylophone;
-			productName = Xylophone;
-			productReference = AD937BF222C61DBB002E2D88 /* Xylophone.app */;
+			name = XylophoneLite;
+			productName = XylophoneLite;
+			productReference = AD937BF222C61DBB002E2D88 /* XylophoneLite.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -131,7 +131,7 @@
 					};
 				};
 			};
-			buildConfigurationList = AD937BED22C61DBB002E2D88 /* Build configuration list for PBXProject "Xylophone" */;
+			buildConfigurationList = AD937BED22C61DBB002E2D88 /* Build configuration list for PBXProject "XylophoneLite" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -144,7 +144,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				AD937BF122C61DBB002E2D88 /* Xylophone */,
+				AD937BF122C61DBB002E2D88 /* XylophoneLite */,
 			);
 		};
 /* End PBXProject section */
@@ -313,12 +313,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = Xylophone/Info.plist;
+				INFOPLIST_FILE = XylophoneLite/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = co.appbrewery.Xylophone;
+				PRODUCT_BUNDLE_IDENTIFIER = co.appbrewery.XylophoneLite;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
@@ -330,12 +330,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = Xylophone/Info.plist;
+				INFOPLIST_FILE = XylophoneLite/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = co.appbrewery.Xylophone;
+				PRODUCT_BUNDLE_IDENTIFIER = co.appbrewery.XylophoneLite;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
@@ -345,7 +345,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		AD937BED22C61DBB002E2D88 /* Build configuration list for PBXProject "Xylophone" */ = {
+		AD937BED22C61DBB002E2D88 /* Build configuration list for PBXProject "XylophoneLite" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AD937C0422C61DBE002E2D88 /* Debug */,
@@ -354,7 +354,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AD937C0622C61DBE002E2D88 /* Build configuration list for PBXNativeTarget "Xylophone" */ = {
+		AD937C0622C61DBE002E2D88 /* Build configuration list for PBXNativeTarget "XylophoneLite" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AD937C0722C61DBE002E2D88 /* Debug */,
