@@ -2,8 +2,8 @@
 //  ViewController.swift
 //  XylophoneLite
 //
-//  Created by Mufrat Aritra on 01/26/2021.
-//  Copyright © 2021 MKA. All rights reserved.
+//  Created by Mufrat Karim Aritra on 1/3/21.
+//  Copyright © 2023 Lego Code. All rights reserved.
 //
 
 import UIKit

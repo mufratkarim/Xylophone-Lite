@@ -2,8 +2,8 @@
 //  AppDelegate.swift
 //  XylophoneLite
 //
-//  Created by Angela Yu on 28/06/2019.
-//  Copyright © 2019 The App Brewery. All rights reserved.
+//  Created by Mufrat Karim Aritra on 1/3/21.
+//  Copyright © 2023 Lego Code. All rights reserved.
 //
 
 import UIKit
